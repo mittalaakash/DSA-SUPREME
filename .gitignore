@@ -1,0 +1,7 @@
+*.exe
+*.bin
+.cph
+test.cpp
+/.vscode
+*.dSYM/
+*.DS_Store
