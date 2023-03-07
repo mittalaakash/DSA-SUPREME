@@ -9,34 +9,26 @@ int main()
 
     for (int row = 0; row < size; row++)
     {
-        for (int col = 0; col < row + 1; col++)
+        for (int col = 0; col < 2 * (row) + 1; col++)
         {
-            cout << s;
+            if ((col + 1) % 2 == 0)
+                cout << "*";
+            else
+                cout << (row + 1);
         }
-        s++;
         cout << endl;
     }
-    s--;
     for (int row = 0; row < size; row++)
     {
-        for (int col = 0; col < size - row; col++)
+        for (int col = 0; col < 2 * (size - row) - 1; col++)
         {
-            cout << s;
+            if ((col + 1) % 2 == 0)
+                cout << "*";
+            else
+                cout << (size - row);
         }
-        s--;
         cout << endl;
     }
-    // for (int row = 0; row < size; row++)
-    // {
-    //     for (int col = 0; col < 2 * (size - row) - 1; col++)
-    //     {
-    //         if ((col + 1) % 2 == 0)
-    //             cout << "*";
-    //         else
-    //             cout << (size - row);
-    //     }
-    //     cout << endl;
-    // }
 }
 
 //            Input:5
