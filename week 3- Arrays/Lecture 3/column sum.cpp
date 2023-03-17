@@ -3,20 +3,20 @@
 
 using namespace std;
 
-void printRowSum(int arr[][3], int rows, int cols)
+void printColumnSum(int arr[][3], int rows, int cols)
 {
     for (int i = 0; i < rows; i++)
     {
         int sum = 0;
         for (int j = 0; j < cols; j++)
         {
-            sum += arr[i][j];
+            sum += arr[j][i];
 
             // 1	5	3
             // 7	6	9
             // 4	8	2
         };
-        cout << sum << '\t';
+        cout << "Printing sum of column " << i << " " << sum << endl;
     };
 }
 
@@ -25,7 +25,7 @@ int main()
     int rows = 3, cols = 3;
     int arr[3][3] = {{1, 5, 3}, {7, 6, 9}, {4, 8, 2}};
 
-    printRowSum(arr, rows, cols);
+    printColumnSum(arr, rows, cols);
 
     return 0;
 }

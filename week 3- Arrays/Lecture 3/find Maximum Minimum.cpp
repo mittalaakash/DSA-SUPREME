@@ -16,6 +16,7 @@ int findMax(int arr[][3], int rows, int cols)
     };
     return maxi;
 };
+
 int findMin(int arr[][3], int rows, int cols)
 {
     int mini = INT_MAX;
