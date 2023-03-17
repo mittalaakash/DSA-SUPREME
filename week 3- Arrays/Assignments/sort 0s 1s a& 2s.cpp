@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+    // dutch national flag
+
     vector<int> arr{2, 0, 1};
     // sort(arr.begin(), arr.end()); // sort function from STL
 
