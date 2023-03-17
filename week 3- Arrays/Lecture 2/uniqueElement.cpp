@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
 
 int findUnique(vector<int> arr)
@@ -17,10 +18,8 @@ int main()
     int n;
     cout << "Enter the size of array" << endl;
     cin >> n;
-    int newArr[4] = {1, 2, 3, 4};
 
-    vector<int>
-        arr(n);
+    vector<int> arr(n);
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
