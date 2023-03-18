@@ -1,7 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+
 using namespace std;
+
 void factorial(int N)
 {
     vector<int> ans;
@@ -33,5 +35,6 @@ void factorial(int N)
 int main()
 {
     factorial(50);
+
     return 0;
 }

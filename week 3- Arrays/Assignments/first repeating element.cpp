@@ -11,13 +11,17 @@ int findElement(int arr[], int size)
     {
         hash[arr[i]]++;
     }
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < hash.size(); i++)
     {
         if (hash[arr[i]] > 1)
         {
             return i + 1;
         }
     }
+
+    // printing hash
+    //  for (auto [key, value] : hash)
+    //      cout << key << " : " << value << endl;
     return -1;
 }
 
