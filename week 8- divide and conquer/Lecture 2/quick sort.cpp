@@ -21,12 +21,13 @@ int partition(int arr[], int s, int e)
 
     int rightIndex = s + count;
     swap(arr[pivotIndex], arr[rightIndex]);
+    pivotIndex = rightIndex;
 
     // step3 smaller elements in left side and larger on right
     int i = s;
     int j = e;
 
-    while (i < rightIndex && j > rightIndex)
+    while (i < pivotIndex && j > pivotIndex)
     {
         while (arr[i] <= pivotElement)
         {
@@ -41,7 +42,7 @@ int partition(int arr[], int s, int e)
         // i. you found the elemnt to swap
         // ii. no need to swap
 
-        if (i < rightIndex && j > rightIndex)
+        if (i < pivotIndex && j > pivotIndex)
         {
             swap(arr[i], arr[j]);
         }
@@ -68,7 +69,7 @@ void quickSort(int arr[], int s, int e)
 
 int main()
 {
-    int arr[] = {1, 2, 4, 4, 5, 6, 7};
+    int arr[] = {7, 1, 5, 5, 3, 2, 1};
     int n = 7;
 
     int s = 0;
