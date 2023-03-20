@@ -20,13 +20,15 @@ int missingElement(vector<int> v)
         }
         mid = start + (end - start) / 2;
     }
-    return mid;
+    return mid + 1;
 }
 
 int main()
 {
     vector<int> v{1, 2, 3, 4, 6, 7};
     int value = missingElement(v);
+
+    cout << value;
 
     return 0;
 }
