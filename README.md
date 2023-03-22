@@ -13,7 +13,7 @@ This repository contains my solutions to the programming problems from [Data Str
 
 ## Introduction
 
-The [Data Structures Bootcamp](https://www.thecodehelp.in/course/data-structures-bootcamp) course was organized by [Love Babbar](https://www.linkedin.com/in/love-babbar-38ab2887) and is designed to teach the fundamental concepts of data structures in programming. The course covers various data structures like arrays, linked lists, stacks, queues, trees, and graphs.
+The [Data Structures Bootcamp](https://www.thecodehelp.in/course/data-structures-bootcamp) was organized by [Love Babbar](https://www.linkedin.com/in/love-babbar-38ab2887) and is designed to teach the fundamental concepts of data structures in programming. The course covers various data structures like arrays, linked lists, stacks, queues, trees, and graphs.
 
 This repository contains solutions to the programming problems from the course, organized by data structures and in chronological order of the course weeks. Each subdirectory in this repository represents a week of classes, and contains the solutions to the problems related to the topics covered in that week.
 
