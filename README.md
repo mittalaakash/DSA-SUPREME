@@ -15,7 +15,7 @@ This repository contains my solutions to the programming problems from [Data Str
 
 The [Data Structures Bootcamp](https://www.thecodehelp.in/course/data-structures-bootcamp) course is designed to teach the fundamental concepts of data structures in programming. The course covers various data structures like arrays, linked lists, stacks, queues, trees, and graphs.
 
-This repository contains my solutions to the programming problems from the course, organized by data structure.
+This repository contains my solutions to the programming problems from the course, organized by [Love Babbar](https://www.linkedin.com/in/love-babbar-38ab2887).
 
 ## Technologies Used
 
