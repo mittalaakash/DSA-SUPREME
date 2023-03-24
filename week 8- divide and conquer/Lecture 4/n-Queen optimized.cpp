@@ -76,11 +76,13 @@ void solve(vector<vector<char>> &board, int col, int n)
 int main()
 {
     int n = 4;
+
+    // creating the board with no queen
     vector<vector<char>> board(n, vector<char>(n, '.'));
     int col = 0;
 
-    // 0=> empty cell
-    // 1=> queen placed on cell
+    // '.' => empty cell
+    // 'Q' => queen placed on cell
 
     solve(board, col, n);
 

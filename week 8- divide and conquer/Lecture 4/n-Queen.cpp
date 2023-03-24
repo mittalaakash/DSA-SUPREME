@@ -84,6 +84,8 @@ void solve(vector<vector<int>> &board, int col, int n)
 int main()
 {
     int n = 9;
+
+    // creating the board with no queen
     vector<vector<int>> board(n, vector<int>(n, 0));
     int col = 0;
 
