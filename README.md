@@ -1,3 +1,7 @@
+<div><img align="right" src="https://dgyugonj9a9mu.cloudfront.net/63ac9183e4b0f1067f1b7b32_scaled_cover_e7f77a49f7.jpg" width="100%" alt="Course Image"/></div>
+
+<br>
+
 # Data Structures Bootcamp
 
 This repository contains my solutions to the programming problems from [Data Structures Bootcamp](https://www.thecodehelp.in/course/data-structures-bootcamp) course, written in C++.
