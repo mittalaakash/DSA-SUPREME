@@ -1,0 +1,8 @@
+* Find k closest element to a given value in an array
+* Exponential Search
+* Unbounded binary search
+* Book allocation 
+* Painter partition
+* Aggressive cows
+* Roti/paratha SPOJ
+* EKO Spoj

@@ -1,0 +1,20 @@
+* Code your own function of find and erase of inbuilt string functions. 
+* Print number of substrings in the given input string.
+* Valid anagrams - 242
+* Reverse only letters - 917
+* Longest Common Prefix - 14
+* Reverse Vowels of string - 345
+* Isomorphic strings
+* Reorganise strings
+* Group anagrams
+* Longest Palindromic substring
+* Find index of first occurence in string
+* String to integer
+* String compression
+* Integer to Roman
+* LEETCODE - 179
+* LEETCODE - 791
+* LEETCODE - 953
+* LEETCODE - 524
+* Integer to roman
+* Zigzag conversion
