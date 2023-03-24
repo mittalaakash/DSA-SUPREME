@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void printSolution(vector<vector<int>> &board, int n)
+void printSolution(vector<vector<char>> &board, int n)
 {
     for (int i = 0; i < n; i++)
     {
@@ -15,7 +15,7 @@ void printSolution(vector<vector<int>> &board, int n)
     }
 }
 
-bool isSafe(int row, int col, vector<vector<int>> &board, int n)
+bool isSafe(int row, int col, vector<vector<char>> &board, int n)
 {
     // check if we can place queen on current cell
 
@@ -24,7 +24,7 @@ bool isSafe(int row, int col, vector<vector<int>> &board, int n)
     int j = col;
     while (j >= 0)
     {
-        if (board[i][j] == 1)
+        if (board[i][j] == 'Q')
             return false;
         j--;
     }
@@ -34,7 +34,7 @@ bool isSafe(int row, int col, vector<vector<int>> &board, int n)
     j = col;
     while (i >= 0 && j >= 0)
     {
-        if (board[i][j] == 1)
+        if (board[i][j] == 'Q')
             return false;
         i--, j--;
     }
@@ -44,7 +44,7 @@ bool isSafe(int row, int col, vector<vector<int>> &board, int n)
     j = col;
     while (i < n && j >= 0)
     {
-        if (board[i][j] == 1)
+        if (board[i][j] == 'Q')
             return false;
         i++, j--;
     }
@@ -53,7 +53,7 @@ bool isSafe(int row, int col, vector<vector<int>> &board, int n)
     return true;
 }
 
-void solve(vector<vector<int>> &board, int col, int n)
+void solve(vector<vector<char>> &board, int col, int n)
 {
     // base case
     if (col >= n)
@@ -70,27 +70,27 @@ void solve(vector<vector<int>> &board, int col, int n)
         if (isSafe(row, col, board, n))
         {
             // place queen
-            board[row][col] = 1;
+            board[row][col] = 'Q';
 
             // recursion
             solve(board, col + 1, n);
 
             // backtracking
-            board[row][col] = 0;
+            board[row][col] = '-';
         }
     }
 }
 
 int main()
 {
-    int n = 9;
+    int n = 4;
 
     // creating the board with no queen
-    vector<vector<int>> board(n, vector<int>(n, 0));
+    vector<vector<char>> board(n, vector<char>(n, '-'));
     int col = 0;
 
-    // 0=> empty cell
-    // 1=> queen placed on cell
+    // '-'=> empty cell
+    // 'Q'=> queen placed on cell
 
     solve(board, col, n);
 
