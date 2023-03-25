@@ -1,0 +1,4 @@
+* number of square full arrays
+* word break 1
+* letter tile combination
+* sum of all subset XOR
