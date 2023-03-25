@@ -1,4 +1,4 @@
-* number of square full arrays
-* word break 1
-* letter tile combination
-* sum of all subset XOR
+Leetcode 996. Number of Squareful Arrays:  https://leetcode.com/problems/number-of-squareful-arrays/
+Leetcode 139. Word Break https://leetcode.com/problems/word-break/
+Leetcode 1079. Letter Tile Possibilities https://leetcode.com/problems/letter-tile-possibilities/
+Leetcode 1863. Sum of All Subset XOR Totals https://leetcode.com/problems/sum-of-all-subset-xor-totals/
