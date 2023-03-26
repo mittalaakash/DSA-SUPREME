@@ -3,6 +3,5 @@
 * Unbounded binary search
 * Book allocation 
 * Painter partition
-* Aggressive cows
 * Roti/paratha SPOJ
 * EKO Spoj
