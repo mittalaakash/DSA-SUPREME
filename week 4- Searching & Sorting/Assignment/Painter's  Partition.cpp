@@ -43,4 +43,4 @@ int main()
     cout << partition(arr, n, k) << endl;
 
     return 0;
-}
+};
